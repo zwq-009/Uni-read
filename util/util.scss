@@ -1,0 +1,16 @@
+// 用::after伪元素生成的箭头
+// 使用参考 F:/project/uniapp/yifangread/yifang-read-frond-end/pages/my/my.vue
+// 搜索 @extend .after-arrow-icon;
+.after-arrow-icon{
+	content: '';
+	border: 1px solid black;
+	display: inline-block;
+	transform: rotate(45deg);
+	border-left-style: none;
+	border-bottom-style: none;
+}
+$my-bg-cl:  #F4F4F0; // 通用页面背景颜色  灰灰色
+.uni-bg-cr{
+	background-color: $my-bg-cl;
+}
+$main-color: #FF5501; // 主色调 黄黄色
